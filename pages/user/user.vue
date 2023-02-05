@@ -9,7 +9,7 @@
 				<newsbox :item="item" @click.native="goodtatil(item)"></newsbox>
 			</view>
 		</view>	
-		<view class="nohistory" v-if="!listArr">
+		<view class="nohistory" v-if="!listArr.length">
 			<image src="../../static/images/nohis.png" mode="widthFix"></image>
 			<view class="text">
 				暂无浏览记录

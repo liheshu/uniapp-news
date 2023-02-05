@@ -55,10 +55,10 @@
 					looktime:parseTime(Date.now())
 				}
 				let index = historyArr.findIndex(i=>{
-					return item.id==this.detail.id
+					return i.id==this.detail.id
 				})
 				if(index>=0){
-					historyArr.splice(index,-1)
+					historyArr.splice(index,1)
 				}
 				historyArr.unshift(item)
 				historyArr=historyArr.splice(0,10)
