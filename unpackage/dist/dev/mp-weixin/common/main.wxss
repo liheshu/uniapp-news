@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+view{
+	box-sizing: border-box;
+}
+scroll-view ::-webkit-scrollbar {  
+	    display: none !important;  
+	    width: 0 !important;  
+	    height: 0 !important;  
+	    -webkit-appearance: none;  
+	    background: transparent;
+}
+
